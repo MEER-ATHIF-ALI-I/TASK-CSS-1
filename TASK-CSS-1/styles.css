@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+  }
+  .rightcontent {
+    text-align: right;
+  }
+  .top {
+    margin: 0.3rem 0;
+    border: none;
+    height: 4px !important;
+  }
+  .bottom {
+    border: none;
+    height: 4px !important;
+    margin: 0 0 0.3rem 0;
+  }
+  .content1 {
+    text-align: justify;
+  }
+  .para {
+    margin-bottom: 0.5rem;
+  }
+  .para1 {
+    margin-bottom: 0rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 6.5rem;
+  }
+  .content2 {
+    text-align: justify;
+  }
+  .datebadge {
+    margin-bottom: 0.3rem;
+    margin-left: 0.8rem;
+    padding-right: 1rem;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  }
+  .img1 {
+    margin-top: 1rem;
+  }
+  .datebadge1 {
+    bottom: -2rem;
+    position: relative;
+    margin-bottom: 0.3rem;
+    margin-left: 0.6rem;
+    padding-right: 1rem;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  }
+  .hr {
+    border: none;
+    height: 4px !important;
+    border-radius: 12.5%;
+    color: rgb(0, 0, 0);
+  }
+  .content4 {
+    color: rgb(233, 38, 38);
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .content5 {
+    padding-bottom: 2rem;
+  }
+  /* .hey {
+    margin-right: 0;
+  } */
+  @media only screen and (max-width: 575px) {
+    .title {
+      text-align: center;
+      font-size: 5.2rem;
+    }
+  }
